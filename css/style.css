@@ -313,3 +313,8 @@ p {
   background-image: url("Img/logo-id.png"); }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.d-none-import{
+  display: none !important;
+}
