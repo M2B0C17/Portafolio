@@ -307,6 +307,8 @@ p {
   background-image: url("Img/logo-ae.png"); }
 #skills .logo-xd {
   background-image: url("Img/logo-xd.png"); }
+#skills .logo-figma {
+    background-image: url("Img/logo-figma.png"); }
 #skills .logo-pr {
   background-image: url("Img/logo-pr.png"); }
 #skills .logo-id {
@@ -317,4 +319,39 @@ p {
 
 .d-none-import{
   display: none !important;
+}
+
+.box-p-test{
+  padding: 1rem !important;
+  align-items: center center;
+}
+
+.box-p-test {
+  border: none;
+  transition: box-shadow .3s;
+  background-color: white;
+}
+
+.box-p-test:hover {
+  -webkit-box-shadow: 20px 20px 20px 0 rgba(225, 225, 225, 0.7);
+  -moz-box-shadow: 20px 20px 20px 0 rgba(225, 225, 225, 0.7);
+  box-shadow: 20px 20px 20px 0 rgba(225, 225, 225, 0.7);
+}
+
+.a-none{
+  text-decoration: none;
+  outline: none;
+}
+
+.a-test{
+  color: #000000;
+  font-weight: bold;
+}
+
+.a-test:hover{
+  color: #F7A9B0;
+}
+
+.p-test{
+    margin-bottom: 0;
 }
