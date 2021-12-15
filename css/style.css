@@ -355,3 +355,9 @@ p {
 .p-test{
     margin-bottom: 0;
 }
+
+.b-bottom-pink{
+  border-bottom: 2px solid #F7A9B0;
+  margin: 0 1rem 0 0;
+  font-weight: bolder;
+}
