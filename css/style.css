@@ -202,7 +202,7 @@ p {
   color: #A5321C; }
 
 .bg-beight {
-  background-color: #ebeced; }
+  background-color: #f1f1f1; }
 
 .nav-tabs .nav-link {
   border: none !important;
@@ -235,7 +235,7 @@ p {
   height: 80vh; }
 
 .img-header, .img-headerProjects, .img-headerContact {
-  background-color: #ebeced; }
+  background-color: #f1f1f1; }
   .img-header .navbar-toggler, .img-headerProjects .navbar-toggler, .img-headerContact .navbar-toggler {
     background-color: #731615;
     border: 1px solid #731615; }
@@ -360,4 +360,12 @@ p {
   border-bottom: 2px solid #F7A9B0;
   margin: 0 1rem 0 0;
   font-weight: bolder;
+}
+
+img, .img{
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
 }
